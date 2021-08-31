@@ -1,0 +1,1046 @@
+<?xml version="1.1" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hepsiosym">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+
+    <application
+
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7273254954010969~1249420499"/>
+
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".QuestionActivity">
+
+        </activity>
+        <activity android:name=".Questions_class.YksQuestions">
+
+        </activity>
+
+        <activity android:name=".Questions_class.DgsQuestion">
+
+        </activity>
+        <activity android:name=".Questions_class.AlesQuestion">
+
+        </activity>
+        <activity android:name=".Questions_class.KpssQuestion">
+
+        </activity>
+        <activity android:name=".Questions_class.YdsQuestios">
+
+        </activity>
+        <activity android:name=".Questions_class.TusQuestion">
+
+        </activity>
+        <activity android:name=".Questions_class.OsysQuestion">
+
+        </activity>
+        <activity android:name=".tyt_ayt_Question2018">
+
+        </activity>
+        <activity android:name=".tyt_ayt_Question_2019"
+            >
+        </activity>
+        <activity android:name=".YKS_Questions_2019.Tyt2019">
+
+        </activity>
+        <activity android:name=".YKS_Questions_2019.Ayt_2019">
+
+        </activity>
+        <activity android:name=".YKS_Questions_2019.Ydt_Almanca_2019">
+
+        </activity>
+        <activity android:name=".YKS_Questions_2019.Ydt_Arapca_2019">
+            
+        </activity>
+        <activity android:name=".YKS_Questions_2019.Ydt_Fransızca_2019">
+
+        </activity>
+        <activity android:name=".YKS_Questions_2019.Ydt_Ingilizce_2019">
+
+        </activity>
+        <activity android:name=".YKS_Questions_2019.Ydt_Rusca_2019">
+
+        </activity>
+        <activity android:name=".YKS_Questions_2018.Tyt_2018">
+
+        </activity>
+        <activity android:name=".YKS_Questions_2018.Ayt_2018">
+
+        </activity>
+        <activity android:name=".YKS_Questions_2018.Ydt_Almanca_2018">
+
+        </activity>
+        <activity android:name=".YKS_Questions_2018.Ydt_Arapca_2018">
+
+        </activity>
+        <activity android:name=".YKS_Questions_2018.Ydt_Fransızca_2018">
+
+        </activity>
+        <activity android:name=".YKS_Questions_2018.Ydt_Ingilizce_2018">
+
+        </activity>
+        <activity android:name=".YKS_Questions_2018.Ydt_Rusca_2018">
+
+        </activity>
+        <activity android:name=".DGS_Questions.Dgs_2018">
+
+        </activity>
+        <activity android:name=".DGS_Questions.Dgs_2017">
+
+        </activity>
+        <activity android:name=".DGS_Questions.Dgs_2016">
+
+        </activity>
+        <activity android:name=".DGS_Questions.Dgs_2015">
+
+        </activity>
+        <activity android:name=".DGS_Questions.Dgs_2014">
+
+        </activity>
+        <activity android:name=".DGS_Questions.Dgs_2019_say">
+
+        </activity>
+        <activity android:name=".DGS_Questions.Dgs_2019_soz">
+
+        </activity>
+        <activity android:name=".Ales_Questions.Ales_2014">
+
+        </activity>
+        <activity android:name=".Ales_Questions.Ales_2014_ik">
+
+        </activity>
+        <activity android:name=".Ales_Questions.Ales_2014_sb">
+
+        </activity>
+        <activity android:name=".Ales_Questions.Ales_2015">
+
+        </activity>
+        <activity android:name=".Ales_Questions.Ales_2015_ik">
+
+        </activity>
+        <activity android:name=".Ales_Questions.Ales_2015_sb">
+
+        </activity>
+        <activity android:name=".Ales_Questions.Ales_2016">
+
+        </activity>
+        <activity android:name=".Ales_Questions.Ales_2016_ik">
+
+        </activity>
+        <activity android:name=".Ales_Questions.Ales_2016_sb">
+
+        </activity>
+        <activity android:name=".Ales_Questions.Ales_2017">
+
+        </activity>
+        <activity android:name=".Ales_Questions.Ales_2017_ik">
+
+        </activity>
+        <activity android:name=".Ales_Questions.Ales_2017_sb">
+
+        </activity>
+        <activity android:name=".Ales_Questions.Ales_2018">
+
+        </activity>
+        <activity android:name=".Ales_Questions.Ales_2018_ik">
+
+        </activity>
+        <activity android:name=".Ales_Questions.Ales_2018_2">
+
+        </activity>
+        <activity android:name=".Ales_Questions.Ales_2018_3">
+
+        </activity>
+        <activity android:name=".Ales_Questions.Ales_2019">
+
+        </activity>
+        <activity android:name=".Ales_Questions.Ales_2019_1_say">
+
+        </activity>
+        <activity android:name=".Ales_Questions.Ales_2019_1_soz">
+
+        </activity>
+        <activity android:name=".Ales_Questions.Ales_2019_2">
+
+        </activity>
+        <activity android:name=".Ales_Questions.Ales_2019_3">
+
+        </activity>
+        <activity android:name=".CalculationsActivity">
+
+        </activity>
+
+        <activity android:name=".KpssQuestions_2018.Kpss_orta_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.KpssQuestions2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_onlisans_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_GyGk_2018">
+
+            </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_egitim_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_kamu_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_calisma_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_ulus_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_hukuk_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_iktisat_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_maliye_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_isletme_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_istatistik_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_muhasebe_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_biyo_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_cog_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_din_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_fen_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_fizik_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_ilkmat_2018">
+
+        </activity>
+
+        <activity android:name=".KpssQuestions_2018.Kpss_ing_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_kimya_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_matlise_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_okuloncesi_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_sinif_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_sosyal_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_rehber_2018">
+
+        </activity>
+
+        <activity android:name=".KpssQuestions_2018.Kpss_tarih_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_turkce_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_turkdili_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_dinhzmt_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_dinhzmt2_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2018.Kpss_dinhzmt3_2018">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.KpssQuestions2017">
+
+        </activity>
+
+        <activity android:name=".KpssQuestions_2017.Kpss_GyGk_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_egitim_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_kamu_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_calisma_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_ulus_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_hukuk_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_iktisat_2017">
+
+        </activity>
+
+        <activity android:name=".KpssQuestions_2017.Kpss_maliye_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_isletme_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_istatistik_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_muhasebe_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_biyo_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_cog_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_din_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_fen_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_fizik_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_ilkmat_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_ing_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_kimya_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_matlise_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_okulonce_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_rehber_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_sinif_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_sosyal_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_tarih_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_turkce_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2017.Kpss_turkdili_2017">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.KpssQuestions2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_gygk_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_egitim_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_lisansAlan1_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_lisanalan2_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_alm_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_bio_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_cog_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_din_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_fen_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_fizik_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_ing_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_ilkmat_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_kimya_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_matlise_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_okulonce_2016">
+
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_rehber_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_sinif_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_sosyal_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_tarih_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_turkdili_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_turkce_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_dhbtLisans_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_dhbtOnlisans_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_dhbtOrtaogretim_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_orta_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_onlisans_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions_2016.Kpss_lisans_2016">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.KpssQuestions2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_gygk_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_egitim_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_kamu_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_calisma_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_ulus_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_hukuk_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_iktisat_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_maliye_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_isletme_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_muhasebe_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_istatistik_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_turkce_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_ilkmat_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_fen_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_sosyal_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_turkdil_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_tarih_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_cografya_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_matlise_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_fizik_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_kimya_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_biyo_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_din_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_ing_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_rehber_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_sinif_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_okuloncesi_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_beden_2019">
+
+        </activity>
+        <activity android:name=".KpssQuestions2019.Kpss_imamhatip_2019">
+
+        </activity>
+        <activity android:name=".YDSQuestions2018.YdsQuestions2018">
+
+        </activity>
+        <activity android:name=".YDSQuestions2018.Yds_ilkAlman2018">
+
+        </activity>
+        <activity android:name=".YDSQuestions2018.Yds_ilkarap2018">
+
+        </activity>
+        <activity android:name=".YDSQuestions2018.Yds_ilkfra2018">
+
+        </activity>
+        <activity android:name=".YDSQuestions2018.Yds_ilking2018">
+
+        </activity>
+        <activity android:name=".YDSQuestions2018.Yds_ilkrus2018">
+
+        </activity>
+        <activity android:name=".YDSQuestions2018.Yds_sonAlm2018">
+
+        </activity>
+        <activity android:name=".YDSQuestions2018.Yds_sonArap2018">
+
+        </activity>
+        <activity android:name=".YDSQuestions2018.Yds_sonFra2018">
+
+        </activity>
+        <activity android:name=".YDSQuestions2018.Yds_sonİng2018">
+
+        </activity>
+        <activity android:name=".YDSQuestions2018.Yds_sonRus2018">
+
+        </activity>
+        <activity android:name=".YDSQuestions2018.Yds3_2018">
+
+        </activity>
+        <activity android:name=".YDSQuestions2017.YdsQuestion2017">
+
+        </activity>
+        <activity android:name=".YDSQuestions2017.Yds_ilkAlm2017">
+
+        </activity>
+        <activity android:name=".YDSQuestions2017.Yds_ilkArap2017">
+
+        </activity>
+        <activity android:name=".YDSQuestions2017.Yds_ilkFra2017">
+
+        </activity>
+        <activity android:name=".YDSQuestions2017.Yds_ilkİng2017">
+
+        </activity>
+        <activity android:name=".YDSQuestions2017.Yds_ilkRus2017">
+
+        </activity>
+        <activity android:name=".YDSQuestions2017.Yds_sonAlm2017">
+
+        </activity>
+        <activity android:name=".YDSQuestions2017.Yds_sonArap2017">
+
+        </activity>
+        <activity android:name=".YDSQuestions2017.Yds_sonFra2017">
+
+        </activity>
+        <activity android:name=".YDSQuestions2017.Yds_sonİng2017">
+
+        </activity>
+        <activity android:name=".YDSQuestions2017.Yds_sonRus2017">
+
+        </activity>
+        <activity android:name=".YDSQuestion2016.YdsQuestion2016">
+
+        </activity>
+        <activity android:name=".YDSQuestion2016.Yds_ilkAlm2016">
+
+        </activity>
+        <activity android:name=".YDSQuestion2016.Yds_ilkArap2016">
+
+        </activity>
+        <activity android:name=".YDSQuestion2016.Yds_ilkFra2016">
+
+        </activity>
+        <activity android:name=".YDSQuestion2016.Yds_ilkİng2016">
+
+        </activity>
+        <activity android:name=".YDSQuestion2016.Yds_ilkRus2016">
+
+        </activity>
+        <activity android:name=".YDSQuestion2016.Yds_sonAlm2016">
+
+        </activity>
+        <activity android:name=".YDSQuestion2016.Yds_sonArap2016">
+
+        </activity>
+        <activity android:name=".YDSQuestion2016.Yds_sonFra2016">
+
+        </activity>
+        <activity android:name=".YDSQuestion2016.Yds_soning2016">
+
+        </activity>
+        <activity android:name=".YDSQuestion2016.Yds_sonRus2016">
+
+        </activity>
+        <activity android:name=".YDSQuestions2015.YdsQuestions2015">
+
+        </activity>
+        <activity android:name=".YDSQuestions2015.Yds_ilkAlm2015">
+
+        </activity>
+        <activity android:name=".YDSQuestions2015.Yds_ilkArap2015">
+
+        </activity>
+        <activity android:name=".YDSQuestions2015.Yds_ilkFra2015">
+
+        </activity>
+        <activity android:name=".YDSQuestions2015.Yds_ilking2015">
+
+        </activity>
+        <activity android:name=".YDSQuestions2015.Yds_ilkRus2015">
+
+        </activity>
+        <activity android:name=".YDSQuestions2015.Yds_sonAlm2015">
+
+        </activity>
+        <activity android:name=".YDSQuestions2015.Yds_sonArap2015">
+
+        </activity>
+        <activity android:name=".YDSQuestions2015.Yds_sonFra2015">
+
+        </activity>
+        <activity android:name=".YDSQuestions2015.Yds_soning2015">
+
+        </activity>
+        <activity android:name=".YDSQuestions2015.Yds_sonRus2015">
+
+        </activity>
+        <activity android:name=".TUSQuestions2018.TUSQuestions2018">
+
+        </activity>
+        <activity android:name=".TUSQuestions2018.Tıp1_2018">
+
+        </activity>
+        <activity android:name=".TUSQuestions2018.Klinik1_2018">
+
+        </activity>
+        <activity android:name=".TUSQuestions2018.Tıp2_2018">
+
+        </activity>
+        <activity android:name=".TUSQuestions2018.Klinik2_2018">
+
+        </activity>
+        <activity android:name=".TUSQuestions2017.TusQuestions2017">
+
+        </activity>
+        <activity android:name=".TUSQuestions2017.Tıpilk_2017">
+
+        </activity>
+        <activity android:name=".TUSQuestions2017.Klinikilk_2017">
+
+        </activity>
+        <activity android:name=".TUSQuestions2017.TıpSon_2017">
+
+        </activity>
+        <activity android:name=".TUSQuestions2017.KlinikSon_2017">
+
+        </activity>
+        <activity android:name=".TUSQuestions2016.TusQuestions2016">
+
+        </activity>
+        <activity android:name=".TUSQuestions2016.Tıpilk_2016">
+
+        </activity>
+        <activity android:name=".TUSQuestions2016.Klinikilk_2016">
+
+        </activity>
+        <activity android:name=".TUSQuestions2016.TıpSon2016">
+
+        </activity>
+        <activity android:name=".TUSQuestions2016.KlinikSon2016">
+
+        </activity>
+        <activity android:name=".TUSQuestions2015.TusQuestion2015">
+
+        </activity>
+        <activity android:name=".TUSQuestions2015.Tıpilk_2015">
+
+        </activity>
+        <activity android:name=".TUSQuestions2015.Klinikilk_2015">
+
+        </activity>
+        <activity android:name=".TUSQuestions2015.KlinikSon_2015">
+
+        </activity>
+        <activity android:name=".TUSQuestions2019.TusQuestion2019">
+
+        </activity>
+        <activity android:name=".TUSQuestions2019.Tıp1_2019">
+
+        </activity>
+        <activity android:name=".TUSQuestions2019.Klinik1_2019">
+
+        </activity>
+        <activity android:name=".TUSQuestions2019.Tıp2_2019">
+
+        </activity>
+        <activity android:name=".TUSQuestions2019.Klinik2_2019">
+
+        </activity>
+        <activity android:name=".Questions_class.DusQuestion">
+
+        </activity>
+        <activity android:name=".DUSQuestions.Dus2018">
+
+        </activity>
+        <activity android:name=".DUSQuestions.Dus2017">
+
+        </activity>
+        <activity android:name=".DUSQuestions.Dus2016">
+
+        </activity>
+        <activity android:name=".DUSQuestions.Dus2019">
+
+        </activity>
+        <activity android:name=".DUSQuestions.Dus2015">
+            
+        </activity>
+        <activity android:name=".YDSQuestion2019.YdsQuestion2019">
+
+        </activity>
+        <activity android:name=".YDSQuestion2019.Yds1_Alm2019">
+
+        </activity>
+        <activity android:name=".YDSQuestion2019.Yds1_arap2019">
+
+        </activity>
+        <activity android:name=".YDSQuestion2019.Yds1_bulgar2019">
+
+        </activity>
+        <activity android:name=".YDSQuestion2019.Yds1_farsca2019">
+
+        </activity>
+        <activity android:name=".YDSQuestion2019.Yds1_fra2019">
+
+        </activity>
+        <activity android:name=".YDSQuestion2019.Yds1_ing2019">
+
+        </activity>
+        <activity android:name=".YDSQuestion2019.Yds1_isp2019">
+
+        </activity>
+        <activity android:name=".YDSQuestion2019.Yds1_ita2019">
+
+        </activity>
+        <activity android:name=".YDSQuestion2019.Yds1_rus2019">
+
+        </activity>
+        <activity android:name=".YDSQuestion2019.Yds1_yunan2019">
+
+        </activity>
+        <activity android:name=".YDSQuestion2019.Yds2_alm2019">
+
+        </activity>
+        <activity android:name=".YDSQuestion2019.Yds2_arap2019">
+
+        </activity>
+        <activity android:name=".YDSQuestion2019.Yds2_fra2019">
+
+        </activity>
+        <activity android:name=".YDSQuestion2019.Yds2_ing2019">
+
+        </activity>
+        <activity android:name=".YDSQuestion2019.Yds2_rus2019">
+
+        </activity>
+        <activity android:name=".YDSQuestion2019.Yds3_ing2019">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2017.OsysQuestion2017">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2017.Ygs2017">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2017.mat2017">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2017.fizik2017">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2017.kimya2017">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2017.biyo2017">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2017.tukdil2017">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2017.ing2017">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2017.fra2017">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2017.alm2017">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2017.felsefe2017">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2017.cog2_2017">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2017.tarih2017">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2017.cog1_2017">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2016.OsysQuestion2016">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2016.mat2016">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2016.ygs2016">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2016.fizik2016">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2016.geo2016">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2016.kimya2016">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2016.biyo2016">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2016.turkdil2016">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2016.felsefe2016">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2016.alm2016">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2016.ing2016">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2016.fra2016">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2016.cog1_2016">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2016.cog2_2016">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2016.tarih2016">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2015.OsysQuestion2015">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2015.mat2015">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2015.ygs2015">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2015.fizik2015">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2015.kimya2015">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2015.biyo2015">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2015.turkdil2015">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2015.tarih2015">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2015.felsefe2015">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2015.cog1_2015">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2015.cog2_2015">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2015.alm2015">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2015.ing2015">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2015.fra2015">
+
+        </activity>
+        <activity android:name=".OSYSQuestions2015.geo2015">
+
+        </activity>
+        <activity android:name=".CALCULATIONS.YksCalculations">
+
+        </activity>
+        <activity android:name=".CALCULATIONS.DgsCalculations">
+
+        </activity>
+        <activity android:name=".CALCULATIONS.AlesCalculations">
+
+        </activity>
+        <activity android:name=".CALCULATIONS.YdsCalculations">
+
+        </activity>
+        <activity android:name=".CALCULATIONS.TusCalculations">
+
+        </activity>
+        <activity android:name=".CALCULATIONS.DusCalculations">
+
+        </activity>
+        <activity android:name=".BASEPOINTS.BasePoints">
+
+        </activity>
+        <activity android:name=".BASEPOINTS.YksBasePoints3">
+
+        </activity>
+        <activity android:name=".BASEPOINTS.YksBasePoints4">
+
+        </activity>
+        <activity android:name=".BASEPOINTS.DgsBasePoints">
+
+        </activity>
+        <activity android:name=".BASEPOINTS.KpssLisansBasePoints">
+
+        </activity>
+        <activity android:name=".BASEPOINTS.KpssOnlisansBasePoints">
+
+        </activity>
+        <activity android:name=".BASEPOINTS.KpssOrtaBasePoints">
+
+        </activity>
+        <activity android:name=".YKS_Questions_2021.tyt_ayt_Question2021">
+
+        </activity>
+        <activity android:name=".YKS_Questions_2021.Tyt2021">
+
+        </activity>
+        <activity android:name=".YKS_Questions_2021.Ayt2021">
+
+        </activity>
+        <activity android:name=".YKS_Questions_2021.ydt_almanca_2021">
+
+        </activity>
+        <activity android:name=".YKS_Questions_2021.ydt_arapca_2021">
+
+        </activity>
+        <activity android:name=".YKS_Questions_2021.ydt_fransızca_2021">
+
+        </activity>
+        <activity android:name=".YKS_Questions_2021.ydt_ing_2021">
+
+        </activity>
+        <activity android:name=".YKS_Questions_2021.ydt_rus_2021">
+
+        </activity>
+
+       <activity android:name=".YKS_Questions_2020.tyt_ayt_Question2020"></activity>
+        <activity android:name=".YKS_Questions_2020.Tyt2020"></activity>
+        <activity android:name=".YKS_Questions_2020.Ayt2020"></activity>
+        <activity android:name=".YKS_Questions_2020.ydt_almanca_2020"></activity>
+        <activity android:name=".YKS_Questions_2020.ydt_arapca_2020"></activity>
+        <activity android:name=".YKS_Questions_2020.ydt_fransızca_2020"></activity>
+        <activity android:name=".YKS_Questions_2020.ydt_ing_2020"></activity>
+        <activity android:name=".YKS_Questions_2020.ydt_rus_2020"></activity>
+        <activity android:name=".DGS_Questions.Dgs_2020_soz"></activity>
+        <activity android:name=".DGS_Questions.Dgs_2020_say"></activity>
+        <activity android:name=".Ales_Questions.Ales_2020_1"></activity>
+
+
+
+
+    </application>
+
+</manifest>

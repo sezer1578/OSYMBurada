@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar">
+
+    </include>
+
+    <GridLayout
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="4"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(40)Temel  Bilimler:"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="20dp"
+
+            />
+
+        <EditText
+
+            android:id="@+id/temelBilimlerDogruid"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Doğru"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            />
+        <EditText
+
+            android:id="@+id/temelBilimlerYanlisid"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Yanlış"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(80)Klinik Bilimler:"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_marginRight="20dp"
+
+            />
+
+
+        <EditText
+
+            android:id="@+id/klinikBilimlerDogruId"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Doğru"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            />
+        <EditText
+
+            android:id="@+id/klinikBilimlerYanlisid"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Yanlış"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:inputType="number"
+            android:imeOptions="actionGo"
+            />
+
+
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:visibility="visible"
+        >
+
+        <Button
+            android:id="@+id/dusHesaplaid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HESAPLA"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:layout_marginLeft="60dp"
+
+            />
+
+        <Button
+            android:id="@+id/dusTemizleid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEMİZLE"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background2"
+            android:layout_marginLeft="40dp"
+
+            />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/dusHesapmaSonuclariTxt"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HESAPLAMA SONUÇLARI"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:visibility="invisible"
+
+        />
+
+    <GridLayout
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/netGrid"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="5"
+        android:visibility="invisible"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temel Bilimler Neti:"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="20dp"
+            />
+        <TextView
+            android:id="@+id/temelBilimlerNetid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="20dp"
+            android:maxLength="4"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Klinik  Bilimler Neti:"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="20dp"
+            />
+        <TextView
+            android:id="@+id/klinikBilimlerNetid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="20dp"
+            android:maxLength="4"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dus Puanı:"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="20dp"
+            />
+        <TextView
+            android:id="@+id/dusPanid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="20dp"
+            android:maxLength="4"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sonuç:"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="20dp"
+            />
+        <TextView
+            android:id="@+id/dusSonucid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="20dp"
+            />
+    </GridLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView_dus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-7273254954010969/9353628453">
+
+    </com.google.android.gms.ads.AdView>
+
+
+
+</LinearLayout>

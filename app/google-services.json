@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "367342924639",
+    "firebase_url": "https://hepsiosym.firebaseio.com",
+    "project_id": "hepsiosym",
+    "storage_bucket": "hepsiosym.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367342924639:android:4adb1b9caf45949d97bcea",
+        "android_client_info": {
+          "package_name": "com.example.hepsiosym"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367342924639-3c633ckqpp98atnskkvg8le2lisqr992.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hepsiosym",
+            "certificate_hash": "858b956ed3630800ae3384d36bbba88c3cfa064f"
+          }
+        },
+        {
+          "client_id": "367342924639-b0gmilapklrl56ngdtgbdsiag88ejor7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjHonpB8rIsaMIyav9QCyMvom0-3DY3vk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367342924639-b0gmilapklrl56ngdtgbdsiag88ejor7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

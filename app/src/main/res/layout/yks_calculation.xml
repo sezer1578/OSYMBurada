@@ -1,0 +1,1283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar">
+
+        </include>
+
+        <GridLayout
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rowCount="2"
+            android:columnCount="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diploma Puanı:"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginRight="20dp"
+                />
+            <EditText
+                android:id="@+id/dipPuani"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="100"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+
+        </GridLayout>
+
+
+
+
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temel Yetenek Testi"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <GridLayout
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/gridTyt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="4"
+            android:visibility="visible">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(40)Türkçe:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/trDogru"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Doğru"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <EditText
+                android:id="@+id/trYanlis"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Yanlış"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(20)Sosyal Bilimler:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/sosyalDogru"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Doğru"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"/>
+
+            <EditText
+                android:id="@+id/sosyalYanlis"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Yanlış"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(40)Temel Matematik:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                >
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/temelMatDogru"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Doğru"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"/>
+
+            <EditText
+                android:id="@+id/temelMatYanlis"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Yanlış"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(20)Fen Bilimleri:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/fenDogru"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Doğru"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"/>
+
+            <EditText
+                android:id="@+id/fenYanlis"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Yanlış"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+
+        </GridLayout>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alan Yetenek Testi"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <GridLayout
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/gridAyt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="4"
+            android:visibility="visible">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(24)T.Dili ve Edebiyatı:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/turkdilDogru"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Doğru"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <EditText
+                android:id="@+id/turkdilYanlis"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Yanlış"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(10)Tarih-1:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+
+                android:id="@+id/tarih1Dogru"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Doğru"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <EditText
+                android:id="@+id/tarih1Yanlis"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Yanlış"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(6)Coğrafya-1:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/cog1Dogru"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Doğru"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <EditText
+                android:id="@+id/cog1Yanlis"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Yanlış"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(11)Tarih-2:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tarih2Dogru"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Doğru"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <EditText
+                android:id="@+id/tarih2Yanlis"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Yanlış"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(11)Coğrafya-2:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/cog2Dogru"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Doğru"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <EditText
+                android:id="@+id/cog2Yanlis"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Yanlış"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(12)Felsefe:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/felsefeDogru"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Doğru"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <EditText
+                android:id="@+id/felsefeYanlis"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Yanlış"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(6)Din Kültüfü/Felsefe:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/dinDogru"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Doğru"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <EditText
+                android:id="@+id/dinYanlis"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Yanlış"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(40)Matematik:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/matDogru"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Doğru"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <EditText
+                android:id="@+id/matYanlis"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Yanlış"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(14)Fizik:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/fizikDogru"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Doğru"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <EditText
+                android:id="@+id/fizikYanlis"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Yanlış"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(13)Kimya:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/kimyaDogru"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Doğru"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <EditText
+                android:id="@+id/kimyaYanlis"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Yanlış"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(13)Biyoloji:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/biyoDogru"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Doğru"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <EditText
+                android:id="@+id/biyoYanlis"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Yanlış"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(80)Yabancı Dil:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/yabanciDilDogru"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Doğru"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionNext"
+
+                />
+
+            <EditText
+                android:id="@+id/yabanciDilYanlis"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Yanlış"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:imeOptions="actionGo"
+                />
+
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:visibility="visible"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            >
+
+        <Button
+            android:id="@+id/btnHesapla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HESAPLA"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:layout_marginLeft="60dp"
+
+            />
+
+        <Button
+            android:id="@+id/btnTemizle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEMİZLE"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background2"
+            android:layout_marginLeft="40dp"
+
+            />
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/yksHesapmaSonuclariTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HESAPLAMA SONUÇLARI"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:visibility="invisible"
+
+            />
+        <TextView
+            android:id="@+id/yksTytNetTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TYT NET SONUÇLARI"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:visibility="invisible"
+
+            />
+
+
+
+
+        <GridLayout
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/gridTytNet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="10"
+            android:visibility="invisible">
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Türkçe Neti:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/trNet"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sosyal Neti:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/sosyalNet"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Temel Matematik Neti:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/temelMatNet"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fen Bilimleri Neti:"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/fenNet"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/yksTytPuanTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TYT PUANLARI"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"
+            />
+
+        <GridLayout
+           android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/gridTytPuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="10"
+            android:visibility="invisible"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TYT Puanı:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tytPuan1"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:maxLength="8"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Y-TYT Puanı:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tytPuan"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:maxLength="8"
+                />
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/yksAytNetTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AYT NET SONUÇLARI"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:visibility="invisible"
+            />
+
+        <GridLayout
+           android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/gridAytNet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="10"
+            android:visibility="invisible">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Matematik Neti:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/matNet"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fizik Neti:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/fizikNet"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kimya Neti:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/kimyaNet"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Biyoloji Neti:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/biyoNet"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edebiyat Neti:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/edebiyatNet"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tarih-1 Neti:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tarih1Net"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Coğrafya-1 Neti:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/cografya1Net"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tarih-2 Neti:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tarih2Net"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Coğrafya-2 Neti:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/cog2Net"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Felsefe Neti:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/felsefeNet"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Din Kültürü/Felsefe Neti:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/dinNet"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yabancı Dil Neti:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/yksYabanciDilNet"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/yksAytPuanTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AYT PUANLARI"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:visibility="invisible"
+            />
+
+        <GridLayout
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/gridAytPuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="10"
+            android:visibility="invisible"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YKS SAY Puanı:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/yksSayPuan1"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:maxLength="8"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YKS Y-SAY Puanı:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/yksSayPuan"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:maxLength="8"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YKS EA Puanı:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/yksEaPuan1"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:maxLength="8"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YKS Y-EA Puanı:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/yksEaPuan"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:maxLength="8"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YKS SÖZ Puanı:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/yksSozPuan1"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:maxLength="8"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YKS Y-SÖZ Puanı:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/yksSozPuan"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:maxLength="8"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YKS DİL Puanı:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/yksDılPuan1"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:maxLength="8"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YKS Y-DİL Puanı:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:id="@+id/yksDılPuan"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:maxLength="8"
+                />
+
+
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

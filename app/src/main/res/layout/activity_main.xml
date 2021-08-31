@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+    <include
+         android:id="@+id/toolbar"
+         layout="@layout/toolbar"
+        />
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewtop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-7273254954010969/7251328857">
+    </com.google.android.gms.ads.AdView>
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     android:layout_gravity="center"
+     android:gravity="center"
+     >
+     <Button
+         android:layout_marginTop="110dp"
+         android:id="@+id/btnQuestion"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="SORULAR"
+         android:textSize="35sp"
+         android:layout_marginBottom="5dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:background="@drawable/button_background"
+
+         />
+     <Button
+         android:id="@+id/btnCalculate"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="PUAN HESAPLAMA"
+         android:textSize="35sp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:paddingRight="10dp"
+         android:paddingLeft="10dp"
+         android:background="@drawable/button_background"
+         android:layout_marginBottom="5dp"
+
+
+         />
+     <Button
+         android:id="@+id/btnBasePoints"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="TABAN PUANLAR"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:textSize="35sp"
+         android:background="@drawable/button_background"
+
+         />
+
+
+
+ </LinearLayout>
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-7273254954010969/4062166534">
+    </com.google.android.gms.ads.AdView>
+
+
+
+</RelativeLayout>
+
+
+
+
+
+</LinearLayout>

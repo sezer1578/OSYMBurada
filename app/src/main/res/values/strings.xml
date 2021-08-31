@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ÖSYM BURADA</string>
+
+    <string-array name="yks_yillar">
+
+        <item>2019 YKS Verileriyle Hesapla</item>
+        <item>2018 YKS Verileriyle Hesapla</item>
+    </string-array>
+</resources>
